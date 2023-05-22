@@ -1,6 +1,16 @@
 import React from "react";
 import "./Portfolio.css";
 import portfolio from "../../assets/portfolio1.jpg";
+
+const projects = [
+  // const project-1 = {
+  // name : "",
+  // projectDescription: "",
+  // imageLink :  "",
+  // imageAlt : ""
+  // }
+];
+
 const Project = ({ projectName, projectDescription, imageLink, imageAlt }) => {
   return (
     <div className="Project">
