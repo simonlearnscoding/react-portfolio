@@ -9,6 +9,8 @@ const About = () => {
     { icon: HiAcademicCap, title: "Experience" },
   ];
 
+  //TODO replace with placeholder image for now
+  // <!-- order:-50 -->
   return (
     <section id="About">
       <h5>Hi, I'm Simone Muscas</h5>

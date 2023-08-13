@@ -1,9 +1,9 @@
 import React from "react";
 import "./Header.css";
 import CTA from "../CTA/CTA.jsx";
-import ME from "../../assets/me-jungle.jpg";
 // import ME from "~/Downloads/me-jungle.jpg";
 import HeaderSocials from "../Header/HeaderSocials.jsx";
+//TODO: remove the picture for now
 const Header = () => {
   return (
     <header id="#Header">
@@ -13,9 +13,6 @@ const Header = () => {
         <h5 className="text-light">Fullstack Developaer</h5>
         <CTA />
         <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="me" className="me__img" />
-        </div>
 
         <a href="#contact" className="scroll__down">
           {" "}
@@ -27,3 +24,7 @@ const Header = () => {
 };
 
 export default Header;
+
+// <div className="me">
+//   <img src={ME} alt="me" className="me__img" />
+// </div>

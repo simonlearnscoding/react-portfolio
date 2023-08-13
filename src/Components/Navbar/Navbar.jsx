@@ -6,13 +6,15 @@ import {
   AiFillCode,
   AiOutlineContacts,
 } from "react-icons/ai";
-
+//DONE fix error Active Nav item is null
+// <!-- order:0 completed:2023-05-22T16:54:21.580Z -->
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
   const navItems = [
     { href: "#", icon: AiFillHome },
     { href: "#About", icon: AiOutlineUser },
     { href: "#Experience", icon: AiFillCode },
+    { href: "#Portfolio", icon: AiFillCode },
     { href: "#Contact", icon: AiOutlineContacts },
   ];
 
@@ -29,6 +31,7 @@ const Navbar = () => {
         const activeNavItem = document.querySelector(
           `.Navbar a[href="#${section.id}"]`
         );
+        console.log(activeNavItem);
         // call the setActiveNav function for that item
         setActiveNav(activeNavItem.getAttribute("href"));
       } else if (scrollTop === 0) {

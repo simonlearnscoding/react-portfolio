@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-
+// TODO: make a contact form
 const Contact = () => {
   return (
     <section id="Contact" className="Contact">
@@ -8,5 +8,4 @@ const Contact = () => {
     </section>
   );
 };
-
 export default Contact;

@@ -10,7 +10,7 @@ const projects = [
   // imageAlt : ""
   // }
 ];
-
+// TODO: add all of my projects
 const Project = ({ projectName, projectDescription, imageLink, imageAlt }) => {
   return (
     <div className="Project">
